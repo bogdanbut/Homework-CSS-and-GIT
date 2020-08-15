@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+    header{
+        width: 95%;
+        height: 75px;
+        margin: auto;
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: solid 5px #43e68c;
+        box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.75);
+    }
+        header .logo{
+            width: 30%;
+            text-align: center;
+            font-weight: bold;
+            }
+        .link{
+            height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 100px;
+            }
+            .link:hover{
+                background-color:#43e68c;
+            }
+        header .phone{
+            width: 30%;
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 30px;
+        }
+            #phoneIcon{
+                width: 20px;
+                height: 20px;
+                margin-right: 5px;
+                border-radius: 50%;
+            }
